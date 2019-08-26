@@ -52,7 +52,7 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
                                     <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                                 
@@ -64,7 +64,7 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
                                     <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="القسم" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                                 
@@ -75,7 +75,7 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
                                     <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفصل" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                             </StackPanel>
@@ -86,7 +86,7 @@
                                             <ColumnDefinition Width="*"></ColumnDefinition>
                                             <ColumnDefinition Width="*"></ColumnDefinition>
                                         </Grid.ColumnDefinitions>
-                                        <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                        <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
                                         <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفقرة" HorizontalAlignment="Right"></TextBlock>
                                     </Grid>
                                
@@ -98,7 +98,7 @@
                                             <ColumnDefinition Width="*"></ColumnDefinition>
                                             <ColumnDefinition Width="*"></ColumnDefinition>
                                         </Grid.ColumnDefinitions>
-                                        <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                        <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
                                     <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفقرة الفرعية" HorizontalAlignment="Right"></TextBlock>
                                     </Grid>
                                 </StackPanel>
@@ -108,7 +108,7 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
                                     <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم التأشيرة" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                             </StackPanel>
