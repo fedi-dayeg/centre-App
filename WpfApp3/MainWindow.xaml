@@ -59,10 +59,25 @@
                                 
                             </StackPanel>
                             <StackPanel Grid.Row="1">
-                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف"></TextBlock>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                                
                             </StackPanel>
                             <StackPanel Grid.Row="2">
-                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف"></TextBlock>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
                             </StackPanel>
                             <StackPanel Grid.Row="3">
                                 <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف"></TextBlock>
