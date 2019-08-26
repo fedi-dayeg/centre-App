@@ -256,11 +256,7 @@
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
+                                
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
                                 <Grid>
@@ -269,63 +265,7 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف" HorizontalAlignment="Right"></TextBlock>
-                                </Grid>
-
-
-                            </StackPanel>
-                            <StackPanel Grid.Row="1">
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="القسم" HorizontalAlignment="Right"></TextBlock>
-                                </Grid>
-
-                            </StackPanel>
-                            <StackPanel Grid.Row="2">
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفصل" HorizontalAlignment="Right"></TextBlock>
-                                </Grid>
-                            </StackPanel>
-                            <StackPanel Grid.Row="3">
-
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفقرة" HorizontalAlignment="Right"></TextBlock>
-                                </Grid>
-
-                            </StackPanel>
-                            <StackPanel Grid.Row="4">
-
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفقرة الفرعية" HorizontalAlignment="Right"></TextBlock>
-                                </Grid>
-                            </StackPanel>
-                            <StackPanel Grid.Row="5">
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم التأشيرة" HorizontalAlignment="Right"></TextBlock>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="المستفيد" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                             </StackPanel>
                         </Grid>
@@ -344,8 +284,6 @@
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
                                 <Grid>
@@ -354,30 +292,7 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="أوقف مبلغ" HorizontalAlignment="Right"></TextBlock>
-                                </Grid>
-
-
-                            </StackPanel>
-                            <StackPanel Grid.Row="1">
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="بـــــ" HorizontalAlignment="Right"></TextBlock>
-                                </Grid>
-
-                            </StackPanel>
-                            <StackPanel Grid.Row="2">
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="في" HorizontalAlignment="Right"></TextBlock>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="العنوان" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                             </StackPanel>
 
@@ -394,7 +309,6 @@
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
                                 <Grid>
@@ -403,23 +317,9 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="المستفيد" HorizontalAlignment="Right"></TextBlock>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الوثائق المثبة للنفقة" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
-
-
-                            </StackPanel>
-                            <StackPanel Grid.Row="1">
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                        <ColumnDefinition Width="*"></ColumnDefinition>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الهوية البنكية البريدية" HorizontalAlignment="Right"></TextBlock>
-                                </Grid>
-
-                            </StackPanel>
-
+                            </StackPanel>   
                         </Grid>
                     </GroupBox>
 
@@ -434,6 +334,8 @@
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+                                <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
                                 <Grid>
@@ -442,7 +344,27 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الهوية البنكية" HorizontalAlignment="Right"></TextBlock>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="المبلغ الخام للنفقة" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+                            <StackPanel Grid.Row="1" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="يخصم" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+                            <StackPanel Grid.Row="2" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="المبلغ الصافى للدفع" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                             </StackPanel>
                         </Grid>
