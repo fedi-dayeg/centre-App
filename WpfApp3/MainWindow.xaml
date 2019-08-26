@@ -22,7 +22,7 @@
             </LinearGradientBrush>
         </materialDesign:Card.Background>
         <Grid>
-            <UniformGrid Columns="3" Margin="10">
+            <UniformGrid Columns="3">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"></RowDefinition>
@@ -32,19 +32,19 @@
                         <RowDefinition Height="Auto"></RowDefinition>
                     </Grid.RowDefinitions>
 
-                    <GroupBox Grid.Row="0"  Width="auto"
+                    <GroupBox Grid.Row="0" 
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent" Margin="5,16,5,10"  BorderThickness="0.6">
-                        <Grid Margin="0,5,0,-10">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6">
+                        <Grid >
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="*" ></RowDefinition>
-                                <RowDefinition Height="*"></RowDefinition>
-                                <RowDefinition Height="*"></RowDefinition>
-                                <RowDefinition Height="*"></RowDefinition>
-                                <RowDefinition Height="*"></RowDefinition>
-                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
                                 <Grid>
@@ -65,7 +65,7 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف" HorizontalAlignment="Right"></TextBlock>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="القسم" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                                 
                             </StackPanel>
@@ -76,17 +76,41 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
-                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف" HorizontalAlignment="Right"></TextBlock>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفصل" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                             </StackPanel>
                             <StackPanel Grid.Row="3">
-                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف"></TextBlock>
+                               
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"></ColumnDefinition>
+                                            <ColumnDefinition Width="*"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                        <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفقرة" HorizontalAlignment="Right"></TextBlock>
+                                    </Grid>
+                               
                             </StackPanel>
                             <StackPanel Grid.Row="4">
-                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف"></TextBlock>
-                            </StackPanel>
+                                
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"></ColumnDefinition>
+                                            <ColumnDefinition Width="*"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الفقرة الفرعية" HorizontalAlignment="Right"></TextBlock>
+                                    </Grid>
+                                </StackPanel>
                             <StackPanel Grid.Row="5">
-                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم الأمر بالصرف"></TextBlock>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}" Height="20"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم التأشيرة" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
                             </StackPanel>
 
                         </Grid>
