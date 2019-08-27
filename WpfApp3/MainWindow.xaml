@@ -22,7 +22,14 @@
             </LinearGradientBrush>
         </materialDesign:Card.Background>
         <Grid>
-            <UniformGrid Columns="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            
+            <UniformGrid Columns="1" Grid.Column="0" Margin="0,0,5,0">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"></RowDefinition>
@@ -36,7 +43,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,5">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -124,7 +131,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -214,7 +221,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -238,7 +245,7 @@
     
 
             <!-- 2 eme uniformGrid -->
-            <UniformGrid Columns="2" Margin="275,0,0,0" >
+            <UniformGrid Columns="1" Grid.Column="1" Margin="0,0,5,0"  >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"></RowDefinition>
@@ -252,7 +259,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,5">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -280,7 +287,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -305,7 +312,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -330,7 +337,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -411,6 +418,168 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
                                     <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="السنة المالية" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+
+                </Grid>
+            </UniformGrid>
+
+            <!-- 3 eme uniformGrid -->
+            <UniformGrid Columns="1" Grid.Column="2" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <GroupBox Grid.Row="0" 
+                              
+                        Style="{StaticResource MaterialDesignGroupBox}"
+                              materialDesign:ShadowAssist.ShadowDepth="Depth5" 
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,5">
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="رقم" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+
+
+
+                    <!-- 2 eme groupBox -->
+
+
+                    <GroupBox Grid.Row="1" 
+                              
+                        Style="{StaticResource MaterialDesignGroupBox}"
+                              materialDesign:ShadowAssist.ShadowDepth="Depth5" 
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الإسم و اللقب الإجتماعى" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+
+                        </Grid>
+                    </GroupBox>
+
+                    <!-- 3eme groupBox -->
+
+                    <GroupBox Grid.Row="2" 
+                              
+                        Style="{StaticResource MaterialDesignGroupBox}"
+                              materialDesign:ShadowAssist.ShadowDepth="Depth5" 
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="موضوع النفقة" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+
+                    <!-- 4 eme groupBox -->
+
+
+                    <GroupBox Grid.Row="3" 
+                              
+                        Style="{StaticResource MaterialDesignGroupBox}"
+                              materialDesign:ShadowAssist.ShadowDepth="Depth5" 
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+                                
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="صالح الدفع" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+                           
+                        </Grid>
+                    </GroupBox>
+
+                    <!-- 5 eme groupBox -->
+
+                    <GroupBox Grid.Row="4" 
+                              
+                        Style="{StaticResource MaterialDesignGroupBox}"
+                              materialDesign:ShadowAssist.ShadowDepth="Depth5" 
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+                                <RowDefinition Height="Auto" ></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="موضوع التحويل" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+                            <StackPanel Grid.Row="1" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="المستفيد" HorizontalAlignment="Right"></TextBlock>
+                                </Grid>
+                            </StackPanel>
+                            <StackPanel Grid.Row="2" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" Style="{StaticResource MaterialDesignTextBox}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0"  ></TextBox>
+                                    <TextBlock Grid.Column="1"  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="الهوية البريدية" HorizontalAlignment="Right"></TextBlock>
                                 </Grid>
                             </StackPanel>
                         </Grid>
