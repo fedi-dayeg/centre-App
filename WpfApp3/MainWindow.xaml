@@ -259,14 +259,14 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,5,0,15">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
                                 
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -287,13 +287,13 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,15">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -312,13 +312,13 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,15">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -337,7 +337,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,15">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -345,7 +345,7 @@
                                 <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -355,7 +355,7 @@
                                 </Grid>
                             </StackPanel>
                             <StackPanel Grid.Row="1" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -365,7 +365,7 @@
                                 </Grid>
                             </StackPanel>
                             <StackPanel Grid.Row="2" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -391,7 +391,7 @@
                                 <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -401,7 +401,7 @@
                                 </Grid>
                             </StackPanel>
                             <StackPanel Grid.Row="1" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -411,7 +411,7 @@
                                 </Grid>
                             </StackPanel>
                             <StackPanel Grid.Row="2" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -427,7 +427,7 @@
             </UniformGrid>
 
             <!-- 3 eme uniformGrid -->
-            <UniformGrid Columns="1" Grid.Column="2" >
+            <UniformGrid Columns="1" Grid.Column="2" Margin="0,0,5,0" >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"></RowDefinition>
@@ -441,14 +441,14 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,5,0,15">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
 
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -469,13 +469,13 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,15">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -494,13 +494,13 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,15">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -519,13 +519,13 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,15">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -544,7 +544,7 @@
                               
                         Style="{StaticResource MaterialDesignGroupBox}"
                               materialDesign:ShadowAssist.ShadowDepth="Depth5" 
-                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0,0,0,5">
+                              materialDesign:ColorZoneAssist.Mode="Accent"  BorderThickness="0.6" Margin="0">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" ></RowDefinition>
@@ -552,7 +552,7 @@
                                 <RowDefinition Height="Auto" ></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Grid.Row="0" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -562,7 +562,7 @@
                                 </Grid>
                             </StackPanel>
                             <StackPanel Grid.Row="1" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -572,7 +572,7 @@
                                 </Grid>
                             </StackPanel>
                             <StackPanel Grid.Row="2" >
-                                <Grid>
+                                <Grid Margin="0,0,0,10">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
